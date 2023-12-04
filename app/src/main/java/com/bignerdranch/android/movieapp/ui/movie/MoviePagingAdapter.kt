@@ -45,7 +45,8 @@ class MoviePagingAdapter : PagingDataAdapter<Movie, MoviePagingAdapter.MyViewHol
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
-        val binding = ViewHolderMovieBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+        val binding = ViewHolderMovieBinding.
+        inflate(LayoutInflater.from(parent.context), parent, false)
         return MyViewHolder(binding)
     }
 

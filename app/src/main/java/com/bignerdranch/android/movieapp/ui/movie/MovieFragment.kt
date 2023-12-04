@@ -36,8 +36,6 @@ class MovieFragment : Fragment() {
 
         binding = FragmentMovieBinding.inflate(inflater, container, false)
         return binding.root
-
-
     }
 
 

@@ -8,6 +8,7 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.bignerdranch.android.movieapp.databinding.ActivityMainBinding
+import com.bignerdranch.android.movieapp.ui.login.LoginFragment
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -18,5 +19,8 @@ class MainActivity : AppCompatActivity() {
 
         setContentView(R.layout.activity_main)
 
+//        supportFragmentManager.beginTransaction()
+//            .replace(R.id.container_fragment, LoginFragment())
+//            .commit()
     }
 }
