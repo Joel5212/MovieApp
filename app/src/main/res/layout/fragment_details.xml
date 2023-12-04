@@ -220,8 +220,18 @@
                         android:text="@{movieDetails.released}"
                         android:textSize="16sp" />
                 </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ll6"
+                    android:orientation="horizontal"
+                    android:padding="8dp">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/watchlist"/>
 
-
+                </LinearLayout>
             </RelativeLayout>
 
         </androidx.core.widget.NestedScrollView>
