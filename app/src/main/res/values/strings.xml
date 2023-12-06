@@ -20,4 +20,5 @@
     <string name="password_text">"password"</string>
     <string name="login_button_text">"login"</string>
     <string name="watchlist">Add to Watchlist</string>
+    <string name="sign_up">sign up</string>
 </resources>
